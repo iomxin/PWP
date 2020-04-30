@@ -21,62 +21,78 @@ main{
 a{
     color:#F0F7DA ;
 }
-#menu{
-    width: 35px;
-    height: 30px;
-    margin: 30px 0px 20px 20px;
-    cursor: pointer;
-}
 #menu-bar{
-    display: flex;
     box-shadow: 0px 2px 0px rgb(3, 59, 3);
     transition: 2s ;
 }
+#menu{
+    display: flex;
+    height: 150px;
+}
+#label{
+    width: 400px;
+    margin: 30px 0px;
+    position: absolute;
+    left: 57%;
+    font-size: 50px;
+    color: #F0F7DA;
+}
 .bur{
-    height: 5px;
-    width: 100%;
+    height: 10px;
+    width: 100px;
     display: block;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #F0F7DA;
 }
 #bur1{
-    transform: translateY(-4px);
+    transform: translateY(-16px);
     transition: 0.5s;
 }
 #bur2{
     transition: 0.5s;
 }
 #bur3{
-    transform: translateY(4px);
+    transform: translateY(16px);
     transition: 0.5s;
 }
-li{
-    box-shadow: black;
-}
+
 .nav li a {
     color: #F0F7DA;
     text-decoration: none;
+    font-size: 50px;
+
 }
 .nav li{
     list-style: none;
-    padding: 16px 0px;
+    padding: 20px 0px;
+    text-align: center;
 }
 .nav{
     padding: 0px;
-    margin: 0px px;
-    transition: 10s ease;
+    margin: 0px 0px;
+    transform: 10s ease;
     display: none;
 }
 .change{
     display: block;
 }
 .change #bur1{
-    transform: translateY(4px) rotateZ(-135deg);
+    transform: translateY(8px) rotateZ(-135deg);
 }
 .change #bur3{
-    transform: translateY(-6px) rotate(135deg);
+    transform: translateY(-12px) rotate(135deg);
 }
 .change #bur2{
     opacity: 0;
 }
+#navbutton{
+    width: 100px;
+    height: 100%;
+    margin: 60px 0px 20px 30px;
+    cursor: pointer;
+}
 
+#myprofile{
+    display: block;
+    margin: 60px 20%;
+}
