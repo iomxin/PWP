@@ -1,0 +1,47 @@
+.myprofile{
+        width: 90%;
+        height: 250px ;
+        margin: 20px 5%;
+}
+.pro-image{
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 30px;
+}
+.detail-container{
+    background-color:#77ab59;
+    width: 90%;
+    height: 250px ;
+    margin: 20px 5%;
+    border-radius: 20px;
+    color: #F0F7DA;
+}
+.detail{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (min-width: 940px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .detail-container{
+        height: 610px ;
+    }
+    .detail{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 325px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .detail-container{
+        height: 610px ;
+    }
+    .detail{
+        font-size: 30px;
+    }
+}
