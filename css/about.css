@@ -6,7 +6,7 @@
 .pro-image{
     border-radius: 5px;
     width: 80%;
-    margin-left: 30px;
+    padding: 0% 10%;
 }
 .detail-container{
     background-color:#77ab59;
@@ -21,6 +21,24 @@
     text-align: center;
     padding: 10px;
 }
+@media screen and (min-width: 325px) {
+    .myprofile{
+        height: 600px;
+    }
+}
+@media screen and (min-width: 730px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .detail-container{
+        height: 610px ;
+        
+    }
+    .detail{
+        font-size: 30px;
+    }
+}
 @media screen and (min-width: 940px) {
     main{
         display: grid;
@@ -31,17 +49,5 @@
     }
     .detail{
         font-size: 40px;
-    }
-}
-@media screen and (min-width: 325px) {
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .detail-container{
-        height: 610px ;
-    }
-    .detail{
-        font-size: 30px;
     }
 }

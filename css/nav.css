@@ -106,17 +106,17 @@ footer{
 .f-text{
     margin-left: 5px;
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 500px) {
     #label{
         width: 180px;
-        left: 88%;
+        left: 65%;
         font-size: 20px;
     }
 }
-@media screen and (min-width: 325px) {
+@media screen and (min-width: 940px) {
     #label{
         width: 180px;
-        left: 75%;
+        left: 80%;
         font-size: 20px;
     }
 }
